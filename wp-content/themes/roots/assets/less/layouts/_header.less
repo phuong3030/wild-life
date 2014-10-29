@@ -1,0 +1,111 @@
+/* Top page (main navigation)
+****************************************************************/
+#top-row {
+  background: url(../img/topbg.jpg) repeat-x;
+  border-bottom: 7px solid #342f1b;
+  height: 53px;
+}
+
+#top-row #top {
+  text-align: center;
+}
+
+.navigation {
+  background: url(../img/topmbg.gif) repeat-x;
+  height: 70px;
+  border-bottom: 6px solid #617b00;
+  margin: 0 auto;
+  width: 82.8%;
+  margin: 0 0 0 8.6%;
+}
+
+.navigation ul.nav {
+  float: none;
+}
+
+.navigation ul.nav > li {
+  padding: 0;
+  margin: 0 0 0 0;
+  height: 71px;
+  background: url(../img/tmenuitbg.gif) no-repeat left center;
+  float: none;
+  display: inline-block;
+}
+
+.navigation ul.nav > li:last-child a {
+  background: url(../img/tmenuitbg.gif) no-repeat right center;
+}
+
+.navigation ul.nav > li.active > a, .navigation ul.nav > li > a:hover, 
+.navigation ul.nav > li > a:hover {
+  color: #ffffff;
+  border-bottom: 6px solid #e6a939;
+  background-color: transparent;
+}
+
+.navigation ul.nav > li > a, .navigation ul.nav > li > span {
+  font-size: 20px;
+  line-height: 70px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  height: 70px;
+  display: block;
+  padding: 0 31px;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+/* Header row (logo & search form)
+****************************************************************/
+#header-row {
+  padding: 49px 0 33px;
+  border-bottom: 7px solid rgba(97, 123, 0, 0.57);
+}
+
+#logo {
+  margin: 0 0 0 8.6%;
+}
+
+#header-row .search-block {
+  float: right;
+  background: #FFF;
+  margin: 17px 9.7% 0 0;
+  width: 200px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: none;
+  padding: 0;
+}
+
+#header-row .search-block #searchword {
+  margin: 0;
+  border: none;
+  box-shadow: none;
+  width: 165px;
+  height: 33px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #7b7764;
+  padding-top: 4px;
+}
+
+#header-row .search-block #searchword:hover, 
+#header-row .search-block #searchword:focus {
+  box-shadow: none;
+  border: none;
+  outline:0px !important;
+  -webkit-appearance:none;
+}
+
+#header-row .search-block .buttonsearch-block {
+  margin: 0;
+  width: 33px;
+  height: 33px;
+  float: right;
+  background: url(../img/searchButton.gif) no-repeat;
+  border: 2px solid #617b00;
+  outline:0px !important;
+  -webkit-appearance:none;
+}
